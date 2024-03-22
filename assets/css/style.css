@@ -2259,63 +2259,44 @@ section {
   font-size: 14px;
 }
 
-.footer .footer-newsletter {
-  padding: 50px 0;
-  background: #f6f9ff;
-  border-top: 1px solid #e1ecff;
+/* Footer Newsletter Section */
+.footer-newsletter {
+  background-color: #f8f9fa; /* Background color */
+  padding: 60px 0; /* Padding around the content */
+  text-align: center; /* Center align text */
 }
 
-.footer .footer-newsletter h4 {
-  font-size: 24px;
-  margin: 0 0 10px 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: 700;
-  color: #012970;
+.footer-newsletter h4 {
+  font-size: 24px; /* Font size for the heading */
+  color: #0e0202; /* Text color */
+  margin-bottom: 20px; /* Bottom margin */
 }
 
-.footer .footer-newsletter form {
-  margin-top: 20px;
-  background: #fff;
-  padding: 6px 10px;
-  position: relative;
-  border-radius: 4px;
-  border: 1px solid #e1ecff;
+.footer-newsletter h3 {
+  font-size: 20px; /* Font size for the subscription link */
+  color: #007bff; /* Link color */
+  margin-top: 10px; /* Top margin */
 }
 
-.footer .footer-newsletter form input[type=email] {
-  border: 0;
-  padding: 8px;
-  width: calc(100% - 140px);
+.footer-newsletter h3 a {
+  text-decoration: none; /* Remove underline from the link */
+  padding: 10px 20px; /* Padding around the link */
+  border-radius: 5px; /* Add border radius */
+  transition: all 0.3s ease; /* Add transition for smoother hover effect */
 }
 
-.footer .footer-newsletter form input[type=submit] {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  border: 0;
-  background: none;
-  font-size: 16px;
-  padding: 0 30px;
-  margin: 3px;
-  background: #4154f1;
-  color: #fff;
-  transition: 0.3s;
-  border-radius: 4px;
+.footer-newsletter h3 a:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: black; /* Change text color on hover */
 }
 
-.footer .footer-newsletter form input[type=submit]:hover {
-  background: #5969f3;
+/* Add YouTube icon */
+.footer-newsletter h3 a:before {
+  font-family: 'Font Awesome 5 Brands'; /* Specify the Font Awesome Brands font */
+  margin-right: 10px; /* Add margin to separate the icon from the text */
 }
 
-.footer .footer-top {
-  background: white url(../img/footer-bg.png) no-repeat right top;
-  background-size: contain;
-  border-top: 1px solid #e1ecff;
-  border-bottom: 1px solid #e1ecff;
-  padding: 60px 0 30px 0;
-}
+
 
 @media (max-width: 992px) {
   .footer .footer-top {
