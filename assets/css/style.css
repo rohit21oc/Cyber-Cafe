@@ -886,13 +886,13 @@ section {
 .services .section-header h2 {
   font-size: 36px;
   font-weight: 700;
-  color: #333;
+  color: #040101;
   margin-bottom: 10px;
 }
 
 .services .section-header p {
   font-size: 18px;
-  color: #666;
+  color: rgb(31, 30, 30);
 }
 
 .services .row {
@@ -914,7 +914,7 @@ section {
 
 .services .service-box:hover {
   transform: translateY(-10px);
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 35px rgba(217, 40, 248, 0.544);
 }
 
 .services .service-box img {
@@ -922,12 +922,14 @@ section {
   height: auto;
   border-radius: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px #fff(16, 17, 17, 0.839);
   transition: 0.3s;
 }
 
 .services .service-box:hover img {
   transform: scale(1.1);
+  box-shadow: 0 4px 10px rgba(17, 18, 18, 0.307);
+
 }
 
 .services .service-box h3 {
