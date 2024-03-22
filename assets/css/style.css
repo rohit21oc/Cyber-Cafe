@@ -175,6 +175,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
+  width: 75vw;
 }
 
 .header.header-scrolled {
