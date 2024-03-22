@@ -675,37 +675,98 @@ section {
 .about .btn-read-more:hover i {
   transform: translateX(5px);
 }
+/* Values Section */
+#values {
+  padding: 80px 0;
+}
 
-/*--------------------------------------------------------------
-# Values
---------------------------------------------------------------*/
-.values .box {
+#values .section-header h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #012970;
+}
+
+#values .section-header p {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 18px;
+  color: #666;
+}
+
+#values .box {
   padding: 30px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  box-shadow: 0px 0 5px rgba(251, 73, 165, 0.661);
   text-align: center;
   transition: 0.3s;
   height: 100%;
 }
+#values .box:hover {
 
-.values .box img {
-  padding: 30px 50px;
-  transition: 0.5s;
-  transform: scale(1.1);
+  box-shadow: 10px 20px 5px rgba(236, 19, 146, 0.749);
+  
+  transition: 0.3s;
+  
 }
 
-.values .box h3 {
+#values .box img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 5%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+#values .box h3 {
   font-size: 24px;
   color: #012970;
   font-weight: 700;
   margin-bottom: 18px;
 }
 
-.values .box:hover {
+#values .box p {
+  color: #666;
+  font-size: 16px;
+}
+
+#values .box:hover {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
 }
 
-.values .box:hover img {
-  transform: scale(1);
+#values .box:hover img {
+  transform: scale(1.1);
+  /* border: #040101; */
+  box-shadow: 5px 0 5px rgba(16, 14, 15, 0.653);
+ 
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  #values .section-header h2 {
+    font-size: 30px;
+  }
+  
+  #values .section-header p {
+    font-size: 16px;
+  }
+  
+  #values .box {
+    padding: 20px;
+  }
+  
+  #values .box img {
+    max-width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  #values .box h3 {
+    font-size: 20px;
+  }
+  
+  #values .box p {
+    font-size: 14px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1069,7 +1130,8 @@ section {
 }
 
 .btn-contact:hover {
-  background-color: #65c600;
+  background-color: #1119e89a;
+  color: #ffff;
 }
 
 
