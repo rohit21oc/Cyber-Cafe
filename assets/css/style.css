@@ -605,15 +605,6 @@ section {
   box-shadow: 3px 6px 6px 3px rgb(85, 91, 108);
 }
 .hero .hero-img img:hover {
-  /* 
-  box-shadow: 5px 1px 15px 5px rgb(19, 78, 226);
-  transition-duration: 0.5s; */
-  /* max-width: 100%;
-  height: auto;
-  border-radius: 20px;
-  margin-bottom: 20px;
-    transition: 0.3s;
-  transform: translateX(-10px); */
   text-align: right;
   box-shadow: 5px 15px 15px 5px rgb(19, 78, 226);
 -webkit-transform: scale(0.5);
