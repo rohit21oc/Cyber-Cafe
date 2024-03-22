@@ -5,6 +5,22 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+.scrolling-text-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.scrolling-text {
+  white-space: nowrap; /* Prevent text from wrapping */
+  animation: scroll 20s linear infinite;
+  margin-top: 50px;
+  color: red;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
 
 /*--------------------------------------------------------------
 # General
