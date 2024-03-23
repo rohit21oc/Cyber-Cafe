@@ -2381,7 +2381,7 @@ transition: 1s ease;
   color: white;
   text-decoration: none; /* Remove underline from the link */
   padding: 10px 20px; /* Padding around the link */
-  border-radius: 10px; /* Add border radius */
+  border-radius: 15px; /* Add border radius */
   transition: all 0.3s ease; /* Add transition for smoother hover effect */
 }
 
