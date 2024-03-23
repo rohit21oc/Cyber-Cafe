@@ -1718,6 +1718,8 @@ transition: 1s ease;
   transform: rotate(6deg) scale(1.2);
 }
 
+
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
@@ -2375,21 +2377,24 @@ transition: 1s ease;
 }
 
 .footer-newsletter h3 a {
+  background-color: blue;
+  color: white;
   text-decoration: none; /* Remove underline from the link */
   padding: 10px 20px; /* Padding around the link */
-  border-radius: 5px; /* Add border radius */
+  border-radius: 10px; /* Add border radius */
   transition: all 0.3s ease; /* Add transition for smoother hover effect */
 }
 
 .footer-newsletter h3 a:hover {
-  background-color: #007bff; /* Change background color on hover */
-  color: black; /* Change text color on hover */
+  background-color: red; /* Change background color on hover */
+  color: white; /* Change text color on hover */
 }
 
 /* Add YouTube icon */
 .footer-newsletter h3 a:before {
-  font-family: 'Font Awesome 5 Brands'; /* Specify the Font Awesome Brands font */
-  margin-right: 10px; /* Add margin to separate the icon from the text */
+  font-family: 'Font Awesome 5 Brands';
+  margin-right: 10px;
+  content: "\f167"; /* Unicode for the YouTube icon */
 }
 
 
