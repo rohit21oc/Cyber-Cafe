@@ -57,13 +57,13 @@ h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 10px 0;
   overflow: hidden;
 }
 
 .section-header {
   text-align: center;
-  padding-bottom: 40px;
+  padding-bottom: 4px;
 }
 
 .section-header h2 {
@@ -204,8 +204,11 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  margin-left: 0;
+  max-height: 30px;
+  /* width: 200px; */
   margin-right: 6px;
+  /* text-align: left; */
 }
 
 .header .logo span {
@@ -711,7 +714,7 @@ transition: 1s ease;
 }
 /* Values Section */
 #values {
-  padding: 80px 0;
+  padding: 5px 0;
 }
 
 #values .section-header h2 {
