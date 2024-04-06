@@ -638,6 +638,7 @@ transition: 1s ease;
 
   .hero .hero-img img {
     width: 80%;
+    height: 500px;
   }
 }
 
@@ -656,6 +657,7 @@ transition: 1s ease;
 
   .hero .hero-img img {
     width: 100%;
+    height: 500px;
   }
 }
 
